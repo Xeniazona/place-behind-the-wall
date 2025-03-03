@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #e8d8c4, #f5f3f0);
+    text-align: center;
+    padding: 50px;
+}
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.lantern {
+    font-size: 50px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+.lantern:hover {
+    transform: scale(1.1);
+}
