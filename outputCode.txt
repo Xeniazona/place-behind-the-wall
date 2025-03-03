@@ -1,0 +1,18 @@
+import { useState } from 'react';
+import './App.css';
+
+function App() {
+  const [hovered, setHovered] = useState(false);
+
+  return (
+    <div
+      className={`box ${hovered ? 'hovered' : ''}`}
+      onMouseEnter={() => setHovered(true)}
+      onMouseLeave={() => setHovered(false)}
+    >
+      Hover over me!
+    </div>
+  );
+}
+
+export default App;
